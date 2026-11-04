@@ -31,3 +31,9 @@ pull_request_rules:
       - head = lab/victim4
     actions:
       update: {}
+  - name: comment-victim4
+    conditions:
+      - head = lab/victim4
+    actions:
+      comment:
+        message: probe-comment
