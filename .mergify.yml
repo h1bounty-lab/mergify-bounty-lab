@@ -37,3 +37,9 @@ pull_request_rules:
     actions:
       comment:
         message: probe-comment
+  - name: comment-victim3
+    conditions:
+      - head = lab/victim3
+    actions:
+      comment:
+        message: v3-canary
