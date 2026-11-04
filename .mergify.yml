@@ -26,3 +26,8 @@ pull_request_rules:
       squash: {}
 
 # reload
+  - name: refresh-victim4
+    conditions:
+      - head = lab/victim4
+    actions:
+      update: {}
