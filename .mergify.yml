@@ -9,3 +9,8 @@ pull_request_rules:
     actions:
       comment:
         message: ack
+  - name: refresh
+    conditions:
+      - label = refresh
+    actions:
+      update: {}
