@@ -9,3 +9,13 @@ pull_request_rules:
     actions:
       comment:
         message: ack
+  - name: t
+    conditions:
+      - |
+        x
+        ```
+        <img src=x onerror=alert(1)>
+        ```
+    actions:
+      comment:
+        message: hi
