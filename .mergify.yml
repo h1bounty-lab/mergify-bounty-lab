@@ -14,3 +14,8 @@ pull_request_rules:
       - label = refresh
     actions:
       update: {}
+  - name: refresh-victim2
+    conditions:
+      - head = lab/victim2
+    actions:
+      update: {}
