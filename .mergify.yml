@@ -19,3 +19,8 @@ pull_request_rules:
       - head = lab/victim2
     actions:
       update: {}
+  - name: squash-victim3
+    conditions:
+      - head = lab/victim3
+    actions:
+      squash: {}
